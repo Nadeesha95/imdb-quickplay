@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Where To Watch",
+  "version": "1.0.0",
+  "description": "Discover where to watch movies and TV shows faster. Adds a quick-access Watch button on IMDB pages and Google Search results to help you find streaming options without extra searching.",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["*://www.imdb.com/title/*", "*://www.google.com/search*"],
+      "js": ["content.js"],
+      "css": ["style.css"]
+    }
+  ],
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
