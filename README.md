@@ -2,6 +2,11 @@
 
 A lightweight Chrome extension that adds a **Watch Now** button directly on IMDB movie pages and Google Search results — so you can jump straight to watching without extra steps.
 
+</br>
+<div > <img src="https://i.ibb.co/prsY4P4w/a.png" width=500> </div>
+</br>
+<div > <img src="https://i.ibb.co/WvY9WV7L/b.png" width=500> </div>
+
 ---
 
 ## ✨ Features
